@@ -1,0 +1,99 @@
+.contract-det {
+  font-size: 18px;
+  font-weight: 600;
+  position: absolute;
+  top: 20px;
+  left: 425px;
+}
+
+.contract-detail {
+  height: 38px;
+  width: auto;
+}
+
+.contract-detail-text {
+  font-size: 18px;
+  color: #1E9A5C;
+  position: relative;
+  left: 395px;
+  top: 75px;
+  font-weight: 400;
+  background-color: #f0f0f0;
+  padding-left: 30px;
+}
+
+.notice-container {
+  height: 450px;
+  width: 1060px;
+  box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  left: 430px;
+  top: 135px;
+  border-radius: 14px;
+}
+
+.notice-heading {
+  padding: 26px 28px;
+  color: #1E9A5C;
+}
+
+.notice-top-container {
+  margin-left: 50px;
+}
+
+.col p{
+  margin: 0.20em 0;
+}
+
+.notice-heading-top {
+  font-size: 12px;
+}
+
+.notice-heading-amount {
+  font-size: 20px;
+  color: #1E9A5C;
+}
+
+.notice-hr {
+  -moz-box-sizing: border-box;
+  -moz-float-edge: margin-box;
+  border: 1px inset;
+  color: gray;
+  display: block;
+  height: 2px;
+  margin: 0.25em auto;
+  margin-bottom: 30px;
+}
+
+.notice-penalty {
+  padding-top: 60px;
+}
+
+.notice-detail-cont {
+  padding-left: 30px;
+}
+
+.notice-view-container {
+  margin-left: -50px;
+}
+
+.notice-view-container div {
+  padding-left: -30px;
+}
+
+.contract-info button {
+  background: linear-gradient(277.91deg, #20B26B -42.84%, #19BF9A 125.15%);
+  box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.21);
+  border-radius: 6px;
+  position: absolute;
+  top: 15px;
+  right: 1.5%;
+  height: 36px;
+  width: 95px;
+  border: none;
+  color: #fff;
+}
+
+.notice-save {
+  margin-right: 120px;
+}

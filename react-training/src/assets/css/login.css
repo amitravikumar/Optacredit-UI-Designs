@@ -1,0 +1,126 @@
+:root {
+  --input-padding-x: 1.5rem;
+  --input-padding-y: 1rem;
+}
+
+/* body {
+  background-image: url('../images/background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  font-family: 'Numans', sans-serif;
+} */
+
+.card {
+  height: 470px;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 600px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.001) !important;
+  position: relative;
+  left: 150px;
+  top: 30px;
+}
+
+.social_icon span {
+  font-size: 60px;
+  margin-left: 10px;
+  color: #FFC312;
+}
+
+.social_icon span:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.card-header h3 {
+  color: white;
+}
+
+.social_icon {
+  position: absolute;
+  right: 20px;
+  top: -45px;
+}
+
+.remember {
+  color: white;
+}
+
+.remember input {
+  width: 20px;
+  height: 20px;
+  margin-left: 15px;
+  margin-right: 5px;
+}
+
+.login_btn {
+  color: black;
+  background-color: #FFC312;
+  width: 100px;
+}
+
+.login_btn:hover {
+  color: black;
+  background-color: white;
+}
+
+.links {
+  color: white;
+}
+
+.links a {
+  margin-left: 4px;
+}
+
+.login-container {
+  position: absolute;
+  top: 0px;
+  min-width: 1320px;
+  left: 216px;
+}
+
+.card-title {
+  font-size: 48px;
+  line-height: 58px;
+  margin-bottom: 2rem;
+  color: #fff;
+}
+
+.btn {
+  letter-spacing: 0.25rem;
+  transition: all 0.2s;
+  height: 55px;
+  width: 177px;
+  margin-top: 25px;
+  background: linear-gradient(277.91deg, #20b26b -42.84%, #19bf9a 125.15%);
+  box-shadow: 0px 4px 33px rgba(0, 0, 0, 0.21);
+  border-radius: 6px;
+  border: 1px solid transparent;
+}
+.form-label-group input {
+  height: 59px;
+  width: 477px;
+  border-radius: 6px;
+  background: #ffffff;
+  box-shadow: 1px 3px 15px rgba(0, 0, 0, 0.01);
+}
+
+.form-label-group > input,
+.form-label-group > label {
+  padding: var(--input-padding-y) var(--input-padding-x);
+}
+
+.form-label-group > label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 440px;
+  margin-bottom: 0;
+  line-height: 1.5;
+  color: #495057;
+  border: 1px solid transparent;
+  transition: all 0.1s ease-in-out;
+}

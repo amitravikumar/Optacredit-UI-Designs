@@ -1,0 +1,95 @@
+.profile-container {
+  height: 1175px;
+  width: 245px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  position: absolute;
+  left: 150px;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  border: 2.5px solid #fff;
+  margin-top: 30px;
+  height: 55px;
+  width: 55px;
+}
+
+ul.item-details {
+  font-size: 15px;
+  color:  #000000;
+  opacity: 60%;
+  margin-left: 36px;
+}
+
+.loan-type {
+  opacity: 60%;
+  font-size: 12px;
+}
+
+.loan-status {
+  color: #FFB22A;
+  margin-left: 75px;
+}
+
+.loan-allotment {
+  background: #59CB93;
+  background-size: cover;
+  color: #fff;
+  height: 80px;
+}
+
+.loan-allotment p {
+  margin: 0.20em 1em;
+  padding: 0 15px;
+  text-align: left;
+  position: relative;
+  top: 16px;
+}
+
+.loan-allowance{
+  font-size: 12px;
+}
+
+.loan-amount {
+  font-size: 16px;
+}
+
+.client-detail p {
+  font-weight: 600;
+  padding-left: 15px;
+}
+
+.menu {
+  margin-left: 19px;
+  font-size: 15px;
+  text-transform: capitalize;
+  line-height: 18px;
+  font-weight: 600;
+}
+
+.selected {
+  height: 61px;
+  width: 100%;
+  background-color: #cae2dc;
+  font-weight: 600;
+}
+
+.selected li {
+  text-align: left;
+  position: relative;
+  top: 20px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.profile-info p {
+  text-align: center;
+}
+
+.profile-info {
+  padding-top: 28px;
+}

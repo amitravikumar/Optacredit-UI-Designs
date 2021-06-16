@@ -1,0 +1,131 @@
+::placeholder {
+  color: black;
+  opacity: 1;
+}
+
+.colender-page-heading {
+  margin-left: 175px;
+  margin-top: 50px;
+}
+
+.colender-add-new {
+  position: absolute;
+  top: 50px;
+  right: 1.5%;
+}
+
+.addNew-icon {
+  text-align: center;
+  padding-top: 3.5px;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  color: white;
+  background: linear-gradient(96.95deg, #18A183 -1.97%, #20B26B 108.85%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+  margin-left: 10px;
+}
+
+.colender-container {
+  height: 450px;
+  width: 1300px;
+  box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  left: 175px;
+  top: 135px;
+  border-radius: 14px;
+}
+
+.colender-input {
+  width: 297.81px;
+  height: 47px;
+  /* background: linear-gradient(180deg, #E8E8E8 17.04%, rgba(232, 232, 232, 0) 100%); */
+  /* opacity: 0.2; */
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 6px;
+  direction: ltr; 
+}
+
+.colender-label {
+  display: block;
+  direction: ltr;
+}
+
+.colender-details img{
+  border-radius: 50%;
+  height: 66px;
+  width: 66px;
+  margin-top: 25px;
+}
+
+.colender-details {
+  text-align: center;
+}
+
+.detail-separator-1 {
+  height: 5px;
+  width: 100%;
+  background-color: grey;
+}
+
+.vertical-line {
+  width: 1px;
+  min-height: 450px;
+  background: grey;
+  opacity: 0.6;
+  position: absolute;
+  top: 135px;
+  left: 380px;
+}
+
+.colender-input-container input{
+  float: right;
+}
+
+.colender-input-container label {
+  margin-bottom: 70px;
+}
+
+.loan-details {
+  margin-top: 40px;
+  opacity: 0.6;
+}
+
+.horizontal-line {
+  width: 950px;
+  min-height: 1px;
+  background: grey;
+  opacity: 0.6;
+  position: absolute;
+  top: 192px;
+  left: 495px;
+}
+
+.colender-actions {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  bottom: 50px;
+  left: 900px;
+}
+
+.colender-action-yes {
+  background: #1CA978;
+  border-radius: 15px;
+  position: relative;
+  bottom: 25px;
+  left: 50px;
+  color: #fff;
+  text-align: center;
+}
+
+.small-vertical-line {
+  width: 1px;
+  min-height: 30px;
+  background: grey;
+  opacity: 0.6;
+  position: absolute;
+  top: -5px;
+  left: 62px;
+}
